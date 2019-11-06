@@ -1,0 +1,22 @@
+*{
+    font-family: 'PT Sans', sans-serif;
+}
+
+body{
+    padding: 50px
+}
+
+div{
+    font-size: 25px;
+    color : blue;
+    display: flex;
+    flex-direction: column;
+}
+button{
+	border:1px solid red;
+	height: 100px;
+	width: 200px;
+	align-self: center;
+	font-size: 32px;
+
+}
