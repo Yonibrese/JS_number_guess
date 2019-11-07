@@ -30,10 +30,10 @@ function test () {
 		break;
 		}
 		else if(userNum > compNum){
-			userNum = prompt(" your number is too high please guess again");
+			userNum = parseInt(prompt(" your number is too high please guess again"));
 		}
 		else {
-			userNum = prompt("your number is too low please guess again");
+			userNum = parseInt(prompt("your number is too low please guess again"));
 		}	
 	}if(userNum !== compNum){
 		alert("you lost. " + compNum +" was the number" );
